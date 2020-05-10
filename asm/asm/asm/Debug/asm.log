@@ -1,0 +1,5 @@
+﻿  asm.c
+c:\users\רון טרבלוס\desktop\asm2\asm\asm\asm.c(182): warning C4013: 'branch_to_number' undefined; assuming extern returning int
+c:\users\רון טרבלוס\desktop\asm2\asm\asm\asm.c(125): warning C4715: 'find_line_type': not all control paths return a value
+asm.obj : error LNK2019: unresolved external symbol _branch_to_number referenced in function _second_pass
+C:\Users\°σ∩ Φ°ß∞σ±\Desktop\asm2\asm\Debug\asm.exe : fatal error LNK1120: 1 unresolved externals
