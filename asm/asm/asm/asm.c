@@ -263,6 +263,7 @@ int opcode_to_number(char *opcode) {
 	else if (!strcmp(temp, "halt"))
 		return 19;
 	return -1;
+	try to put it in the git
 }
 
 //convert Register name to Register number
