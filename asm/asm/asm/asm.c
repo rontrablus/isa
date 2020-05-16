@@ -15,7 +15,7 @@ typedef char line[MAX_LINE_LENGTH + 1];
 typedef struct {
 	char name[MAX_LABEL_LENGTH + 1];
 	int location;
-} label;
+} label; //Label has String and location.
 
 typedef struct {
 	char *label;
@@ -24,7 +24,7 @@ typedef struct {
 	char *rs;
 	char *rt;
 	char *imm;
-} parsed_instruction;
+} parsed_instruction; //String for every part of the instrauc
 
 typedef enum {
 	EMPTY,
